@@ -1,0 +1,6 @@
+P212 Dokument je validan.Kofer  ima nedozvoljene stvari.
+P214 Dokument je validan.Kofer  ima nedozvoljene stvari.
+P224 Dokument je validan.Kofer  ima nedozvoljene stvari.
+P181 Dokument je validan.Kofer  ima nedozvoljene stvari.
+P151 Dokument je validan.Kofer  ima nedozvoljene stvari.
+P157 Dokument je validan.Kofer  ima nedozvoljene stvari.

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-17T18:35:53.200483Z</date>
+  <millis>1692297353200</millis>
+  <nanos>483000</nanos>
+  <sequence>2</sequence>
+  <logger>granicni_prelaz.javaprojekat2023.incident.IncidentUtil</logger>
+  <level>SEVERE</level>
+  <class>granicni_prelaz.javaprojekat2023.util.SimulationLogger</class>
+  <method>log</method>
+  <thread>24</thread>
+  <message>granicni_prelaz.javaprojekat2023.incident.ListOfPunishedPersons</message>
+  <exception>
+    <message>java.io.NotSerializableException: granicni_prelaz.javaprojekat2023.incident.ListOfPunishedPersons</message>
+    <frame>
+      <class>java.io.ObjectOutputStream</class>
+      <method>writeObject0</method>
+      <line>1197</line>
+    </frame>
+    <frame>
+      <class>java.io.ObjectOutputStream</class>
+      <method>writeObject</method>
+      <line>354</line>
+    </frame>
+    <frame>
+      <class>granicni_prelaz.javaprojekat2023.incident.IncidentUtil</class>
+      <method>writeListOfPunishedPersonsIntoFile</method>
+      <line>30</line>
+    </frame>
+    <frame>
+      <class>granicni_prelaz.javaprojekat2023.simulation.Simulation</class>
+      <method>finishGame</method>
+      <line>96</line>
+    </frame>
+    <frame>
+      <class>granicni_prelaz.javaprojekat2023.simulation.Simulation</class>
+      <method>run</method>
+      <line>84</line>
+    </frame>
+  </exception>
+</record>
+</log>
