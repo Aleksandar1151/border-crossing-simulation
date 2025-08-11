@@ -4,6 +4,12 @@ This repository contains a JavaFX application that simulates traffic through a b
 
 > Educational project: focuses on JavaFX UI, threads/concurrency, basic file I/O, and JSON parsing. It is not a production traffic system.
 
+## Demo
+<div align="center">
+  <img src="screenshots/demo.gif" alt="Project Demo" width="600">
+</div>
+
+
 ---
 
 ## What it does
@@ -189,7 +195,3 @@ Java-Projekat-2023/
   The simulation uses threads and JavaFX Platform calls; make sure you do not block the JavaFX Application Thread with extra code.
 
 ---
-
-## License
-
-Add your license statement here (or reference the existing `LICENSE` file if present).
